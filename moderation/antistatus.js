@@ -17,6 +17,7 @@ async function handleAntistatusViolation(sock, groupId, senderId, msg, messageTe
         while (retries > 0 && !botIsAdmin) {
             try {
                 const botJidOptions = [
+                    sock.user?.lid,
                     sock.user?.id,
                     sock.authState?.creds?.me?.id,
                     sock.user?.jid

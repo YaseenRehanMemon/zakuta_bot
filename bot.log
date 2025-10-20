@@ -166,3 +166,46 @@
 {"level":30,"time":1760953976895,"pid":12775,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"123235614093509@lid","phoneNumber":"923362610421@s.whatsapp.net","admin":null}],"action":"add","msg":"[PARTICIPANT UPDATE]"}
 {"level":30,"time":1760953976895,"pid":12775,"hostname":"vibeboy","msg":"[SETTINGS] Initializing default settings for group: 120363402440404853@g.us"}
 {"level":30,"time":1760953979154,"pid":12775,"hostname":"vibeboy","msg":"[WELCOME] Sent welcome message to @123235614093509 in 120363402440404853@g.us (Final)"}
+{"level":30,"time":1760954149825,"pid":12775,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1760954149825,"pid":12775,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29349236 minutes"}
+{"level":30,"time":1760954209826,"pid":12775,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1760954209826,"pid":12775,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29349237 minutes"}
+{"level":30,"time":1760954269827,"pid":12775,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1760954269827,"pid":12775,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29349238 minutes"}
+{"level":30,"time":1760954329674,"pid":12775,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1760954331824,"pid":13922,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1760954331825,"pid":13922,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1760954331825,"pid":13922,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1760954331829,"pid":13922,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1760954331892,"pid":13922,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1760954333852,"pid":13922,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1760954333853,"pid":13922,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1760954333853,"pid":13922,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1760954333853,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1760954333853,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1760954333854,"pid":13922,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1760954398726,"pid":13922,"hostname":"vibeboy","msg":"[SETTINGS] Initializing default settings for group: 120363402440404853@g.us"}
+{"level":20,"time":1760954398726,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1760954398975,"pid":13922,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1760954398975,"pid":13922,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!open\""}
+{"level":20,"time":1760954398978,"pid":13922,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!open\" | Admin: true"}
+{"level":30,"time":1760954398975,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1760954398975,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1760954398975,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1760954398975,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1760954398977,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1760954398977,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1760954398978,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1760954398978,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Checking user 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1760954398978,"pid":13922,"hostname":"vibeboy","msg":"[BOT ADMIN CHECK] Checking JIDs for !open in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1760954398978,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Bot JIDs for !open in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1760954400021,"pid":13922,"hostname":"vibeboy","msg":"[COMMAND] Group 120363402440404853@g.us set to OPEN."}
+{"level":20,"time":1760954444174,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 123235614093509@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":30,"time":1760954444174,"pid":13922,"hostname":"vibeboy","msg":"[ANTISTATUS] Detected group mention in status from @123235614093509 in group 120363402440404853@g.us"}
+{"level":30,"time":1760954444174,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Checking user 123235614093509@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1760954444174,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1760954444174,"pid":13922,"hostname":"vibeboy","msg":"[STARTUP] Checking user 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1760954444425,"pid":13922,"hostname":"vibeboy","msg":"[ANTISTATUS] Deleted group mention in status message from @123235614093509"}
+{"level":30,"time":1760954445019,"pid":13922,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"123235614093509@lid","phoneNumber":"923362610421@s.whatsapp.net","admin":null}],"action":"remove","msg":"[PARTICIPANT UPDATE]"}
+{"level":20,"time":1760954445019,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CACHE] Invalidated for group 120363402440404853@g.us due to participant update."}
+{"level":30,"time":1760954445266,"pid":13922,"hostname":"vibeboy","msg":"[ANTISTATUS SUCCESS] Kicked @123235614093509 from 120363402440404853@g.us for group mention in status"}
