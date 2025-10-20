@@ -33,14 +33,14 @@ function startConnectionHealthMonitor(sock, logger) {
 
         // If no activity for 10 minutes and connected for more than 5 minutes, send ping
         if (timeSinceLastActivity > 600000 && timeSinceLastReconnect > 300000 && sock.user) {
-            console.log('[HEALTH] Sending connection health ping...');
+            logger.info('[HEALTH] Sending connection health ping...');
             // This will trigger activity and help maintain connection
             lastActivityTime = now;
         }
 
         // Log connection status every 5 minutes
         if (Math.floor(now / 300000) !== Math.floor(lastActivityTime / 300000)) {
-            console.log(`[HEALTH] Connection status: Active, Reconnect attempts: ${reconnectAttempts}`);
+            logger.info(`[HEALTH] Connection status: Active, Reconnect attempts: ${reconnectAttempts}`);
             logger.info(`[HEALTH] Connection health check - Active for ${Math.round(timeSinceLastReconnect / 60000)} minutes`);
             // Run session cleanup every 30 minutes
             if (Math.floor(now / 1800000) !== Math.floor(lastActivityTime / 1800000)) {

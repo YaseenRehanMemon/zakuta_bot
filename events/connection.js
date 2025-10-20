@@ -64,23 +64,22 @@ async function handleConnectionUpdate(sock, update, customMessages, startBot) {
             connectionState.reconnectAttempts++;
             const delayMs = calculateReconnectDelay(connectionState.reconnectAttempts - 1);
             const delaySeconds = Math.round(delayMs / 1000);
-            console.log(`[RECONNECT] Attempt ${connectionState.reconnectAttempts}/${connectionState.maxReconnectAttempts} in ${delaySeconds} seconds...`);
+            logger.info(`[RECONNECT] Attempt ${connectionState.reconnectAttempts}/${connectionState.maxReconnectAttempts} in ${delaySeconds} seconds...`);
             logger.info(`[RECONNECT] Scheduling reconnect attempt ${connectionState.reconnectAttempts} in ${delayMs}ms`);
             setTimeout(() => {
-                console.log(`[RECONNECT] Executing attempt ${connectionState.reconnectAttempts}...`);
+                logger.info(`[RECONNECT] Executing attempt ${connectionState.reconnectAttempts}...`);
                 startBot();
             }, delayMs);
         } else if (connectionState.reconnectAttempts >= connectionState.maxReconnectAttempts) {
             console.error(`[RECONNECT] Max reconnection attempts (${connectionState.maxReconnectAttempts}) reached. Manual restart required.`);
             logger.error(`[RECONNECT] Max reconnection attempts reached. Stopping automatic restart.`);
-            console.log('[RECONNECT] To restart, run: npm run ngrok');
+            logger.info('[RECONNECT] To restart, run: npm run ngrok');
         } else {
-            console.log('[LOGOUT] Please restart the application after deleting the auth_info folder.');
+            logger.info('[LOGOUT] Please restart the application after deleting the auth_info folder.');
             logger.warn('[LOGOUT] User logged out. Manual intervention required.');
         }
     } else if (connection === 'open') {
-        console.log('✅ Bot connected successfully! Monitoring all groups...');
-        logger.info('✅ Bot connected successfully!');
+        logger.info('✅ Bot connected successfully! Monitoring all groups...');
         connectionState.reconnectAttempts = 0; // Reset attempts on successful connection
         connectionState.lastReconnectTime = Date.now();
         // Start connection health monitoring
@@ -89,12 +88,11 @@ async function handleConnectionUpdate(sock, update, customMessages, startBot) {
         cleanupOldSessions();
         // Debug bot ID information
         logger.info(`[DEBUG] Bot ID: ${sock.user?.id}, Bot Name: ${sock.user?.name}`);
-        console.log(`[STARTUP] Bot JID: ${sock.user?.id}`);
-        console.log(`[STARTUP] Bot LID: ${sock.user?.lid}`);
+        logger.info(`[STARTUP] Bot JID: ${sock.user?.id}`);
+        logger.info(`[STARTUP] Bot LID: ${sock.user?.lid}`);
         // Send connection success message to web interface
-        console.log('Bot connected successfully!');
-    } else if (connection === 'connecting') {
-        console.log('⏳ Connecting to WhatsApp...');
+        logger.info('Bot connected successfully!');
+    } else     if (connection === 'connecting') {
         logger.info('⏳ Connecting to WhatsApp...');
     }
 }

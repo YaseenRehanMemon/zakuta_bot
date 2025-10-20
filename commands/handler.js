@@ -147,7 +147,7 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                         ].filter(Boolean).map(normalizeId);
 
                         logger.debug(`[BOT ADMIN CHECK] Checking JIDs for !link in ${groupId}: ${botJidOptions.join(', ')}`);
-                        console.log(`[STARTUP] Bot JIDs for !link in ${groupId}: ${botJidOptions.join(', ')}`);
+                        logger.info(`[STARTUP] Bot JIDs for !link in ${groupId}: ${botJidOptions.join(', ')}`);
 
                         for (const botJid of botJidOptions) {
                             botIsAdmin = await isAdmin(sock, groupId, botJid);
@@ -233,7 +233,7 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                         ].filter(Boolean).map(normalizeId);
 
                         logger.debug(`[BOT ADMIN CHECK] Checking JIDs for !kick in ${groupId}: ${botJidOptions.join(', ')}`);
-                        console.log(`[STARTUP] Bot JIDs for !kick in ${groupId}: ${botJidOptions.join(', ')}`);
+                        logger.info(`[STARTUP] Bot JIDs for !kick in ${groupId}: ${botJidOptions.join(', ')}`);
 
                         for (const botJid of botJidOptions) {
                             botIsAdmin = await isAdmin(sock, groupId, botJid);
@@ -285,7 +285,7 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                         ].filter(Boolean).map(normalizeId);
 
                         logger.debug(`[BOT ADMIN CHECK] Checking JIDs for !open in ${groupId}: ${botJidOptions.join(', ')}`);
-                        console.log(`[STARTUP] Bot JIDs for !open in ${groupId}: ${botJidOptions.join(', ')}`);
+                        logger.info(`[STARTUP] Bot JIDs for !open in ${groupId}: ${botJidOptions.join(', ')}`);
 
                         for (const botJid of botJidOptions) {
                             botIsAdmin = await isAdmin(sock, groupId, botJid);
@@ -337,7 +337,7 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                         ].filter(Boolean).map(normalizeId);
 
                         logger.debug(`[BOT ADMIN CHECK] Checking JIDs for !close in ${groupId}: ${botJidOptions.join(', ')}`);
-                        console.log(`[STARTUP] Bot JIDs for !close in ${groupId}: ${botJidOptions.join(', ')}`);
+                        logger.info(`[STARTUP] Bot JIDs for !close in ${groupId}: ${botJidOptions.join(', ')}`);
 
                         for (const botJid of botJidOptions) {
                             botIsAdmin = await isAdmin(sock, groupId, botJid);

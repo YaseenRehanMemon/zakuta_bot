@@ -24,14 +24,14 @@ async function isAdmin(sock, groupId, userId) {
                 .filter((value, index, self) => self.indexOf(value) === index); // Remove duplicates
 
             logger.info(`[ADMIN CACHE] Admins for ${groupId}: ${admins.join(', ')}`);
-            console.log(`[STARTUP] Group ${groupId} admin JIDs: ${admins.join(', ')}`);
+            logger.info(`[STARTUP] Group ${groupId} admin JIDs: ${admins.join(', ')}`);
             groupAdminsCache.set(groupId, { admins, timestamp: Date.now() });
         }
         // Normalize the input user ID before checking
         const normalizedUserId = normalizeId(userId);
         const isAdminResult = groupAdminsCache.get(groupId).admins.includes(normalizedUserId);
         logger.debug(`[ADMIN CHECK] User ${normalizedUserId} in group ${groupId}: ${isAdminResult}`);
-        console.log(`[STARTUP] Checking user ${normalizedUserId} in group ${groupId}: ${isAdminResult ? 'ADMIN' : 'NOT ADMIN'}`);
+        logger.info(`[STARTUP] Checking user ${normalizedUserId} in group ${groupId}: ${isAdminResult ? 'ADMIN' : 'NOT ADMIN'}`);
         return isAdminResult;
     } catch (err) {
         logger.error({ err }, `[ERROR] Failed to check admin status for ${userId} in ${groupId}`);

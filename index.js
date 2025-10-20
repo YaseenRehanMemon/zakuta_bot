@@ -28,7 +28,6 @@ const logger = pino({ level: 'debug' }, pino.destination('bot.log'));
 const customMessages = loadMessages();
 
 async function startBot() {
-    console.log('--- Initializing Zakuta Bot ---');
     logger.info('--- Initializing Zakuta Bot ---');
     
     const { state, saveCreds } = await useMultiFileAuthState('./auth_info');
@@ -82,7 +81,6 @@ process.on('SIGINT', () => {
     process.exit(0);
 });
 
-console.log('🚀 Starting WhatsApp Moderation Bot...');
 logger.info('🚀 Starting WhatsApp Moderation Bot...');
 startBot();
 // --- END OF FILE index.js ---
