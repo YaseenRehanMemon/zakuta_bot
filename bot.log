@@ -316,3 +316,200 @@
 {"level":30,"time":1761392854697,"pid":30268,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
 {"level":30,"time":1761392855555,"pid":30268,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
 {"level":30,"time":1761392910745,"pid":30268,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1761394113582,"pid":35696,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761394113582,"pid":35696,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761394113582,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394113629,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394113692,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761394114620,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394174631,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394194650,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394214670,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394234703,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394254724,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761394274735,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 1/10"}
+{"level":30,"time":1761394274735,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 1/10 in 5 seconds..."}
+{"level":30,"time":1761394274735,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 1 in 5489.176715568627ms"}
+{"level":30,"time":1761394280228,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 1..."}
+{"level":30,"time":1761394280228,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394280243,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394280268,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761394280997,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394341007,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394361022,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394381042,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394401083,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394421117,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761394441129,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 2/10"}
+{"level":30,"time":1761394441129,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 2/10 in 11 seconds..."}
+{"level":30,"time":1761394441129,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 2 in 10580.019570324554ms"}
+{"level":30,"time":1761394451717,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 2..."}
+{"level":30,"time":1761394451717,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394451734,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394451753,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761394452712,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394512722,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394532750,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394552771,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394572782,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394592812,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761394612824,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 3/10"}
+{"level":30,"time":1761394612824,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 3/10 in 21 seconds..."}
+{"level":30,"time":1761394612824,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 3 in 20936.0108407429ms"}
+{"level":30,"time":1761394633781,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 3..."}
+{"level":30,"time":1761394633781,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394633797,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394633814,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761394634812,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394694826,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394714838,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394734859,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394754871,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394774896,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761394794908,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 4/10"}
+{"level":30,"time":1761394794908,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 4/10 in 41 seconds..."}
+{"level":30,"time":1761394794908,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 4 in 40644.165262133356ms"}
+{"level":30,"time":1761394835563,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 4..."}
+{"level":30,"time":1761394835563,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394835577,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761394835591,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761394836991,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394897001,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394917032,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394937050,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394957062,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761394977091,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761394997104,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 5/10"}
+{"level":30,"time":1761394997104,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 5/10 in 81 seconds..."}
+{"level":30,"time":1761394997104,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 5 in 80608.15260598916ms"}
+{"level":30,"time":1761395077724,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 5..."}
+{"level":30,"time":1761395077725,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761395077738,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761395077757,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761395078554,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395138565,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395158590,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395178612,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395198623,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395218640,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761395238646,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 6/10"}
+{"level":30,"time":1761395238647,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 6/10 in 161 seconds..."}
+{"level":30,"time":1761395238647,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 6 in 160671.97365465388ms"}
+{"level":30,"time":1761395399393,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 6..."}
+{"level":30,"time":1761395399394,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761395399411,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761395399426,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761395400138,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395460149,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395480168,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395500189,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395520199,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395540230,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761395560241,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 7/10"}
+{"level":30,"time":1761395560241,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 7/10 in 300 seconds..."}
+{"level":30,"time":1761395560241,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 7 in 300474.28099008533ms"}
+{"level":30,"time":1761395860742,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 7..."}
+{"level":30,"time":1761395860742,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761395860758,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761395860774,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761395861569,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395921579,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395941609,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395961629,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761395981638,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761396001650,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761396021661,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 8/10"}
+{"level":30,"time":1761396021661,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 8/10 in 300 seconds..."}
+{"level":30,"time":1761396021661,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 8 in 300203.6105252113ms"}
+{"level":30,"time":1761396321896,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 8..."}
+{"level":30,"time":1761396321897,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761396321910,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761396321923,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":50,"time":1761396322383,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 9/10"}
+{"level":30,"time":1761396322383,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 9/10 in 300 seconds..."}
+{"level":30,"time":1761396322383,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 9 in 300169.0415619883ms"}
+{"level":30,"time":1761396622574,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 9..."}
+{"level":30,"time":1761396622574,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761396622598,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761396622624,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761396623691,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761396683703,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761396703736,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761396723757,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761396743766,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761396763798,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761396783810,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 10/10"}
+{"level":30,"time":1761396783810,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 10/10 in 300 seconds..."}
+{"level":30,"time":1761396783810,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 10 in 300305.9162278825ms"}
+{"level":30,"time":1761397084139,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 10..."}
+{"level":30,"time":1761397084139,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761397084154,"pid":35696,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761397084171,"pid":35696,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761397085242,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761397145253,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761397165272,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761397185293,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761397205305,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761397225317,"pid":35696,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761397245328,"pid":35696,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 11/10"}
+{"level":50,"time":1761397245328,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] Max reconnection attempts reached. Stopping automatic restart."}
+{"level":30,"time":1761397245328,"pid":35696,"hostname":"vibeboy","msg":"[RECONNECT] To restart, run: npm run ngrok"}
+{"level":30,"time":1761397966189,"pid":45563,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761397966190,"pid":45563,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761397966190,"pid":45563,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761397966231,"pid":45563,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761397966288,"pid":45563,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761397967426,"pid":45563,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761397990118,"pid":45563,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Restart Required. Restarting immediately..., Attempt: 1/10"}
+{"level":30,"time":1761397990118,"pid":45563,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 1/10 in 5 seconds..."}
+{"level":30,"time":1761397990118,"pid":45563,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 1 in 5095.081522174015ms"}
+{"level":30,"time":1761397995218,"pid":45563,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 1..."}
+{"level":30,"time":1761397995219,"pid":45563,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761397995223,"pid":45563,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761397995228,"pid":45563,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761397997835,"pid":45563,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761397997836,"pid":45563,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761397997836,"pid":45563,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923058216069:24@s.whatsapp.net, Bot Name: undefined"}
+{"level":30,"time":1761397997836,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923058216069:24@s.whatsapp.net"}
+{"level":30,"time":1761397997836,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 145299079221289:24@lid"}
+{"level":30,"time":1761397997836,"pid":45563,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761398117838,"pid":45563,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1761398117838,"pid":45563,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29356635 minutes"}
+{"level":30,"time":1761398177838,"pid":45563,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1761398177839,"pid":45563,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29356636 minutes"}
+{"level":30,"time":1761398204301,"pid":45563,"hostname":"vibeboy","msg":"[SETTINGS] Initializing default settings for group: 120363423163991849@g.us"}
+{"level":20,"time":1761398204301,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363423163991849@g.us"}
+{"level":20,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363423163991849@g.us: 121264710643820@s.whatsapp.net(null), 96079072743552@s.whatsapp.net(null)"}
+{"level":20,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @121264710643820 in 120363423163991849: \"╭═「𝗪𝗘𝗟𝗖𝗢𝗠𝗘」 ═╮\n│ 🙋🏻‍♂ @145299079221289\n│ 🏡 2nd bot\n├───❖─💫─❖───\n│ ★ A legend in the making 🏅\n│ ✨ Together, we rise above\n│ ©: 𝗦𝗼𝗵𝗮𝗶𝗟\n╰═「 Style fade, Make 𝑽𝑰𝑷!!」═╯\""}
+{"level":30,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363423163991849@g.us: 121264710643820@s.whatsapp.net, 96079072743552@s.whatsapp.net"}
+{"level":30,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Group 120363423163991849@g.us admin JIDs: 121264710643820@s.whatsapp.net, 96079072743552@s.whatsapp.net"}
+{"level":20,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: true"}
+{"level":30,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: ADMIN"}
+{"level":20,"time":1761398204645,"pid":45563,"hostname":"vibeboy","msg":"[MODERATION] Bypassed for admin @121264710643820"}
+{"level":20,"time":1761398233392,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: true"}
+{"level":20,"time":1761398233392,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @121264710643820 in 120363423163991849: \"*User*: @145299079221289\n*Message*: *ᴘʜʟʏ ᴀᴅᴍɪɴ ʙᴀɴᴏ ᴘʜɪʀ ʜᴜᴋᴀᴍ ᴅᴇɴᴀ😉❕*\n\""}
+{"level":30,"time":1761398233392,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: ADMIN"}
+{"level":20,"time":1761398233392,"pid":45563,"hostname":"vibeboy","msg":"[MODERATION] Bypassed for admin @121264710643820"}
+{"level":20,"time":1761398237608,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: true"}
+{"level":20,"time":1761398237608,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @121264710643820 in 120363423163991849: \"*User*: @145299079221289\n*Message*: *ᴘʜʟʏ ᴀᴅᴍɪɴ ʙᴀɴᴏ ᴘʜɪʀ ʜᴜᴋᴀᴍ ᴅᴇɴᴀ😉❕*\n\""}
+{"level":30,"time":1761398237608,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: ADMIN"}
+{"level":20,"time":1761398237608,"pid":45563,"hostname":"vibeboy","msg":"[MODERATION] Bypassed for admin @121264710643820"}
+{"level":20,"time":1761398239631,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: false"}
+{"level":20,"time":1761398239631,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @63196249493524 in 120363423163991849: \"https://chat.whatsapp.com/HWl6EH2MQsuBv7woo8RNY1?mode=wwt\""}
+{"level":30,"time":1761398239631,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: NOT ADMIN"}
+{"level":30,"time":1761398239632,"pid":45563,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for link, promotion from @63196249493524 in group 120363423163991849@g.us"}
+{"level":20,"time":1761398240204,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: true"}
+{"level":20,"time":1761398240204,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @121264710643820 in 120363423163991849: \"Non-text message\""}
+{"level":30,"time":1761398240204,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: ADMIN"}
+{"level":20,"time":1761398240204,"pid":45563,"hostname":"vibeboy","msg":"[MODERATION] Bypassed for admin @121264710643820"}
+{"level":20,"time":1761398240493,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: true"}
+{"level":20,"time":1761398240493,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @121264710643820 in 120363423163991849: \"*𝗭𝗔𝗞𝗨𝗧𝗔 SAID OH NO @63196249493524 👿 PROMOTIONS ARE NOT WELCOME HERE 👎 TRY ANOTHER GROUP★*\n© 𝐒𝐎𝐇𝐀𝐈𝐋\""}
+{"level":30,"time":1761398240493,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 121264710643820@s.whatsapp.net in group 120363423163991849@g.us: ADMIN"}
+{"level":20,"time":1761398240493,"pid":45563,"hostname":"vibeboy","msg":"[MODERATION] Bypassed for admin @121264710643820"}
+{"level":30,"time":1761398241645,"pid":45563,"hostname":"vibeboy","msg":"[DELETE] Successfully deleted link, promotion and sent warning to @63196249493524"}
+{"level":20,"time":1761398251943,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: false"}
+{"level":20,"time":1761398251943,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @63196249493524 in 120363423163991849: \"Link wla Promotion\""}
+{"level":30,"time":1761398251943,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: NOT ADMIN"}
+{"level":20,"time":1761398260072,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: false"}
+{"level":20,"time":1761398260073,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @63196249493524 in 120363423163991849: \"New code ni diya\""}
+{"level":30,"time":1761398260073,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: NOT ADMIN"}

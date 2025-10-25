@@ -142,7 +142,7 @@ async function handleMessagesUpsert(sock, messagesData, customMessages) {
         }
 
         // Enhanced promotion detection
-        if (linkCount > 0 || promotionKeywords.some(p => p.test(messageText)) ||
+        if (linkCount > 1 || promotionKeywords.some(p => p.test(messageText)) ||
           isPromotionalForward || hasForwardedNewsletter || hasUrlButtons || hasQuotedLinks) {
           shouldDelete = true;
           reason = reason ? `${reason}, promotion` : 'promotion';
