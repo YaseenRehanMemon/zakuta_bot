@@ -1,4 +1,5 @@
 import schedule from 'node-schedule';
+import moment from 'moment-timezone';
 import pino from 'pino';
 import { toUnicodeBold, normalizeId, getMessageContent } from '../utils/helpers.js';
 import { getGroupSettings, setGroupSettings } from '../core/settings.js';
@@ -450,15 +451,21 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
             minute = parseInt(minute);
             if (meridiem.toUpperCase() === 'PM' && hour !== 12) hour += 12;
             if (meridiem.toUpperCase() === 'AM' && hour === 12) hour = 0;
+
+            // Convert Pakistan time to UTC for scheduling
+            const pakistanTime = moment.tz(`${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`, 'HH:mm', 'Asia/Karachi');
+            const utcHour = pakistanTime.utc().hour();
+            const utcMinute = pakistanTime.utc().minute();
+
             const cmdType = cmd === '!autoopen' ? 'open' : 'close';
             const action = cmdType === 'open' ? 'not_announcement' : 'announcement';
-            
+
             if (!autoTimers[groupId]) {
                 autoTimers[groupId] = { open: [], close: [] };
             }
-            
+
             try {
-                const job = schedule.scheduleJob({ hour, minute }, async () => {
+                const job = schedule.scheduleJob({ hour: utcHour, minute: utcMinute, tz: 'UTC' }, async () => {
                     logger.info(`[AUTO-TIMER] TRIGGERED! Running ${cmdType} for group ${groupId}.`);
                     try {
                         await sock.groupSettingUpdate(groupId, action);
@@ -473,7 +480,7 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                 
                 // Push new job to the appropriate array
                 autoTimers[groupId][cmdType].push(job);
-                logger.info(`[AUTO-TIMER] Added new ${cmdType} timer for ${timeArg} (server time) in group ${groupId}`);
+                logger.info(`[AUTO-TIMER] Added new ${cmdType} timer for ${timeArg} (Pakistan time, scheduled in UTC) in group ${groupId}`);
                 
                 const successMessage = toUnicodeBold(customMessages.auto_timer_set_success.replace(/{type}/g, cmdType.charAt(0).toUpperCase() + cmdType.slice(1)).replace(/{time}/g, timeArg));
                 await sock.sendMessage(groupId, { text: successMessage });

@@ -145,7 +145,7 @@ app.post('/bot/start', auth, (req, res) => {
         return res.status(400).json({ error: 'Bot is already running' });
     }
 
-    botProcess = spawn('node', ['index.js'], {
+    botProcess = spawn('npx', ['nodemon', 'index.js'], {
         cwd: __dirname,
         stdio: ['pipe', 'pipe', 'pipe']
     });
