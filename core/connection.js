@@ -1,7 +1,7 @@
 import { default as makeWASocket, useMultiFileAuthState, DisconnectReason, delay } from '@whiskeysockets/baileys';
 import { Boom } from '@hapi/boom';
 import pino from 'pino';
-import qrcode from 'qrcode-terminal';
+import qrcode from 'qrcode';
 import { cleanupOldSessions } from '../utils/session.js';
 
 // Connection stability variables
@@ -62,7 +62,9 @@ async function initializeConnection(eventHandler, messageHandler, logger) {
     
     const sock = makeWASocket({
         auth: state,
-        browser: ['Baileys', 'Chrome', '1.0.0']
+        browser: ['WhatsApp', 'Chrome', '1.0.0'],
+        markOnlineOnConnect: false,
+        syncFullHistory: false
     });
 
     // Register event handlers
@@ -88,7 +90,13 @@ const connectionState = {
 
 function displayQR(qr) {
     console.log('\n[QR CODE] Scan this QR code with WhatsApp:\n');
-    qrcode.generate(qr, { small: true });
+    qrcode.toDataURL(qr, { width: 256, margin: 2 }, (err, url) => {
+        if (err) {
+            console.error('QR generation error:', err);
+            return;
+        }
+        console.log('[QR_IMAGE]', url);
+    });
 }
 
 export {

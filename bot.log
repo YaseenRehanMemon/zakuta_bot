@@ -300,3 +300,19 @@
 {"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
 {"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
 {"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761392564390,"pid":26481,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761392564391,"pid":26481,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761392564391,"pid":26481,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761392564437,"pid":26481,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761392564505,"pid":26481,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761392565368,"pid":26481,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761392625387,"pid":26481,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761392645413,"pid":26481,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761392665437,"pid":26481,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761392854584,"pid":30268,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761392854584,"pid":30268,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761392854584,"pid":30268,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761392854635,"pid":30268,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761392854697,"pid":30268,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761392855555,"pid":30268,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761392910745,"pid":30268,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}

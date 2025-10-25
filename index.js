@@ -1,9 +1,8 @@
 // --- START OF FILE index.js ---
 import fs from 'fs';
-import { default as makeWASocket, useMultiFileAuthState, DisconnectReason, delay, proto } from '@whiskeysockets/baileys';
+import { default as makeWASocket, useMultiFileAuthState, DisconnectReason, delay } from '@whiskeysockets/baileys';
 import { Boom } from '@hapi/boom';
 import pino from 'pino';
-import qrcode from 'qrcode-terminal';
 import schedule from 'node-schedule';
 
 // Import modules

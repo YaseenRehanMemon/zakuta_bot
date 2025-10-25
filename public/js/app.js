@@ -19,7 +19,12 @@ const terminalFullscreenBtn = document.getElementById('terminal-fullscreen');
 // Socket.IO event handlers
 socket.on('bot-log', (data) => {
     console.log('📝 Received bot log:', data);
-    appendToTerminal(data);
+    if (data.startsWith('[QR_IMAGE]')) {
+        const url = data.replace('[QR_IMAGE]', '');
+        appendToTerminal(`<div style="text-align: center; margin: 10px 0;"><img src="${url}" alt="QR Code" style="max-width: 100%; height: auto; border: 2px solid #00ff00; border-radius: 8px;"></div>`);
+    } else {
+        appendToTerminal(data);
+    }
 });
 
 socket.on('bot-status', (status) => {
@@ -269,7 +274,7 @@ function updateBotStatus(status) {
 // Terminal functions
 function appendToTerminal(text) {
     const line = document.createElement('div');
-    line.textContent = text;
+    line.innerHTML = text;
     terminal.appendChild(line);
     terminal.scrollTop = terminal.scrollHeight;
 }
