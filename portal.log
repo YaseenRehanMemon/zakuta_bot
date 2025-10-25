@@ -1,0 +1,11 @@
+
+> zakuta-whatsapp-bot@1.0.0 portal
+> node portal.js
+
+Zakuta Bot Portal running on port 3000
+Access at: http://localhost:3000
+Username: admin
+Password: zakuta2024
+Client connected to portal
+Sending initial bot status: stopped
+Sending 0 recent logs

@@ -209,3 +209,94 @@
 {"level":30,"time":1760954445019,"pid":13922,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"123235614093509@lid","phoneNumber":"923362610421@s.whatsapp.net","admin":null}],"action":"remove","msg":"[PARTICIPANT UPDATE]"}
 {"level":20,"time":1760954445019,"pid":13922,"hostname":"vibeboy","msg":"[ADMIN CACHE] Invalidated for group 120363402440404853@g.us due to participant update."}
 {"level":30,"time":1760954445266,"pid":13922,"hostname":"vibeboy","msg":"[ANTISTATUS SUCCESS] Kicked @123235614093509 from 120363402440404853@g.us for group mention in status"}
+{"level":30,"time":1760954753859,"pid":13922,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1760954753860,"pid":13922,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29349246 minutes"}
+{"level":30,"time":1761156500288,"pid":9470,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761156500289,"pid":9470,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761156500289,"pid":9470,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761156500294,"pid":9470,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761156500339,"pid":9470,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761156502457,"pid":9470,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761156502457,"pid":9470,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761156502457,"pid":9470,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761156502457,"pid":9470,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761156502457,"pid":9470,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761156502457,"pid":9470,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761156517352,"pid":9470,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1761375614328,"pid":9770,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761375614328,"pid":9770,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761375614329,"pid":9770,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375614335,"pid":9770,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375614402,"pid":9770,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761375617014,"pid":9770,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761375617015,"pid":9770,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761375617015,"pid":9770,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761375617015,"pid":9770,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761375617015,"pid":9770,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761375617015,"pid":9770,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761375662373,"pid":9848,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761375662373,"pid":9848,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761375662373,"pid":9848,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375662379,"pid":9848,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375662452,"pid":9848,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761375664532,"pid":9848,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761375664532,"pid":9848,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761375664532,"pid":9848,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761375664533,"pid":9848,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761375664533,"pid":9848,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761375664533,"pid":9848,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761375674915,"pid":9878,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761375674915,"pid":9878,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761375674915,"pid":9878,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375674921,"pid":9878,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375674989,"pid":9878,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761375677548,"pid":9889,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761375677548,"pid":9889,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761375677548,"pid":9889,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375677555,"pid":9889,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375677625,"pid":9889,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761375679739,"pid":9889,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761375679740,"pid":9889,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761375679740,"pid":9889,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761375679740,"pid":9889,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761375679740,"pid":9889,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761375679740,"pid":9889,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761375816296,"pid":10391,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761375816297,"pid":10391,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761375816297,"pid":10391,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375816304,"pid":10391,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761375816377,"pid":10391,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761375818928,"pid":10391,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761375818929,"pid":10391,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761375818929,"pid":10391,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761375818929,"pid":10391,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761375818929,"pid":10391,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761375818929,"pid":10391,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761375938929,"pid":10391,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1761375938929,"pid":10391,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29356266 minutes"}
+{"level":30,"time":1761375998930,"pid":10391,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1761375998931,"pid":10391,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29356267 minutes"}
+{"level":30,"time":1761376058931,"pid":10391,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1761376058932,"pid":10391,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29356268 minutes"}
+{"level":30,"time":1761376802143,"pid":13138,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761376802143,"pid":13138,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761376802143,"pid":13138,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761376802150,"pid":13138,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761376802215,"pid":13138,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761376805127,"pid":13138,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761376805127,"pid":13138,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761376805127,"pid":13138,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761376805127,"pid":13138,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761376805127,"pid":13138,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761376805127,"pid":13138,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761377146814,"pid":14034,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761377146815,"pid":14034,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761377146815,"pid":14034,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761377146828,"pid":14034,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761377146910,"pid":14034,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761377148974,"pid":14034,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761377148975,"pid":14034,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:14@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:14@s.whatsapp.net"}
+{"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:14@lid"}
+{"level":30,"time":1761377148975,"pid":14034,"hostname":"vibeboy","msg":"Bot connected successfully!"}

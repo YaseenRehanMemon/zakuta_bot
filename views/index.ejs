@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <i class="fab fa-whatsapp"></i> Zakuta Bot Control Panel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">
+                            <i class="fas fa-terminal"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/file-manager">
+                            <i class="fas fa-folder"></i> File Manager
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <span class="navbar-text me-3">
+                        <i class="fas fa-server"></i> Port: <%= port %>
+                    </span>
+                    <div id="bot-status" class="navbar-text">
+                        <span class="badge bg-secondary">Checking...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <!-- Bot Control Panel -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card bg-secondary">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-cogs"></i> Bot Control
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <div class="d-flex gap-2">
+                                    <button id="start-bot" class="btn btn-success btn-lg">
+                                        <i class="fas fa-play"></i> Start Bot
+                                    </button>
+                                    <button id="stop-bot" class="btn btn-danger btn-lg" disabled>
+                                        <i class="fas fa-stop"></i> Stop Bot
+                                    </button>
+                                    <button id="restart-bot" class="btn btn-warning btn-lg">
+                                        <i class="fas fa-redo"></i> Restart Bot
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-end">
+                                <div class="d-flex gap-2 justify-content-end">
+                                    <button id="clear-logs" class="btn btn-outline-warning btn-sm">
+                                        <i class="fas fa-trash"></i> Clear Logs
+                                    </button>
+                                    <button id="download-logs" class="btn btn-outline-info btn-sm">
+                                        <i class="fas fa-download"></i> Download Logs
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <!-- Terminal -->
+                    <div class="col-12 mb-4">
+                        <div class="card bg-black">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h5 class="card-title mb-0">
+                                    <i class="fas fa-terminal"></i> Terminal Output
+                                </h5>
+                                <div>
+                                    <button id="terminal-fullscreen" class="btn btn-sm btn-outline-light">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body p-0">
+                                <div id="terminal" class="terminal">
+                                    <div id="terminal-content"></div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
