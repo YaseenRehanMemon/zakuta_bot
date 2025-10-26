@@ -1,0 +1,10 @@
+{
+  "ignore": [
+    "bot.log",
+    "*.log",
+    "warnings.json",
+    "messages.json",
+    "session*",
+    "auth*"
+  ]
+}

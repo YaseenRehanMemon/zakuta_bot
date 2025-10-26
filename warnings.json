@@ -1,0 +1,19 @@
+{
+  "120363123456789012@g.us": {
+    "limit": 3,
+    "users": {}
+  },
+  "120363402440404853@g.us": {
+    "limit": 4,
+    "users": {
+      "167074328526983@lid": {
+        "count": 2,
+        "lastWarning": 1761499548280,
+        "violations": [
+          "sticker",
+          "sticker"
+        ]
+      }
+    }
+  }
+}

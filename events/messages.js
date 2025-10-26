@@ -6,6 +6,7 @@ import { handleAntistatusViolation } from '../moderation/antistatus.js';
 import { containsLinks, hasMentions } from '../moderation/rules.js';
 import { handleCommand } from '../commands/handler.js';
 import { updateActivity } from '../core/connection.js';
+import { addWarning, getWarningLimit, shouldKickUser, getUserWarnings, resetUserWarnings } from '../utils/warnings.js';
 
 const logger = pino({ level: 'debug' }, pino.destination('bot.log'));
 
@@ -149,33 +150,84 @@ async function handleMessagesUpsert(sock, messagesData, customMessages) {
         }
       }
 
-      if (shouldDelete) {
-        logger.info(`[MODERATION ACTION] DELETE for ${reason} from @${senderNumber} in group ${groupId}`);
-        try {
-          await sock.sendMessage(groupId, { delete: msg.key });
-          let responseMessage = '';
-          if (reason.includes('promotion')) {
-            responseMessage = customMessages.promotion_message;
-          } else {
-            responseMessage = customMessages.violation_message;
-          }
-          const reasonCapitalized = toUnicodeBold(reason.toUpperCase());
-          const formattedMessage = responseMessage
-            .replace(/{user}/g, senderNumber)
-            .replace(/{reason_capitalized}/g, reasonCapitalized);
-          try {
-            await sock.sendMessage(groupId, {
-              text: formattedMessage,
-              mentions: [senderId]
-            });
-          } catch (sendError) {
-            logger.warn({ sendError }, '[SEND] Failed to send violation message, continuing');
-          }
-          logger.info(`[DELETE] Successfully deleted ${reason} and sent warning to @${senderNumber}`);
-        } catch (e) {
-          logger.error({ e }, `[ERROR] Failed to perform moderation action (delete) for @${senderNumber}.`);
-        }
-      }
+       if (shouldDelete) {
+         logger.info(`[MODERATION ACTION] DELETE for ${reason} from @${senderNumber} in group ${groupId}`);
+         try {
+           // Delete the violating message
+           await sock.sendMessage(groupId, { delete: msg.key });
+
+           // Check if this violation should trigger warnings (only sticker and link)
+           const shouldWarn = reason.includes('sticker') || reason.includes('link');
+
+           if (shouldWarn) {
+             // Add warning to user
+             const warningCount = addWarning(groupId, senderId, reason);
+             const warningLimit = getWarningLimit(groupId);
+
+             // Check if user should be kicked
+             if (shouldKickUser(groupId, senderId)) {
+               // Kick the user
+               try {
+                 await sock.groupParticipantsUpdate(groupId, [senderId], 'remove');
+                 const kickMessage = customMessages.kick_message_warning_limit
+                   .replace(/{user}/g, senderNumber)
+                   .replace(/{limit}/g, warningLimit);
+                  await sock.sendMessage(groupId, {
+                    text: kickMessage,
+                    mentions: [senderId]
+                  });
+                  logger.info(`[WARNING SYSTEM] Kicked @${senderNumber} after ${warningLimit} warnings`);
+
+                  // Reset user warnings after successful kick
+                  resetUserWarnings(groupId, senderId);
+                } catch (kickError) {
+                  logger.error({ kickError }, `[WARNING SYSTEM] Failed to kick @${senderNumber}`);
+                }
+             } else {
+               // Send violation message with warning count
+               const violationMessage = customMessages.violation_message
+                 .replace(/{user}/g, senderNumber)
+                 .replace(/{reason_capitalized}/g, reason.charAt(0).toUpperCase() + reason.slice(1))
+                 .replace(/{count}/g, warningCount)
+                 .replace(/{limit}/g, warningLimit);
+
+               try {
+                 await sock.sendMessage(groupId, {
+                   text: violationMessage,
+                   mentions: [senderId]
+                 });
+                 logger.info(`[WARNING SYSTEM] Violation message with warning ${warningCount}/${warningLimit} sent to @${senderNumber} for ${reason}`);
+               } catch (sendError) {
+                 logger.warn({ sendError }, '[WARNING SYSTEM] Failed to send violation message');
+               }
+             }
+           } else {
+             // For non-warning violations, send appropriate custom message
+             let messageText = '';
+             if (reason.includes('promotion')) {
+               // Use promotion_message for promotional content
+               messageText = customMessages.promotion_message.replace(/{user}/g, senderNumber);
+             } else {
+               // Use violation_message without warn line for mentions
+               messageText = customMessages.violation_message
+                 .replace(/{user}/g, senderNumber)
+                 .replace(/{reason_capitalized}/g, reason.charAt(0).toUpperCase() + reason.slice(1))
+                 .replace(/\n├◉ Warn : \{count\}\/\{limit\}/g, ''); // Remove warn line
+             }
+             try {
+               await sock.sendMessage(groupId, {
+                 text: messageText,
+                 mentions: [senderId]
+               });
+               logger.info(`[MODERATION] Custom message sent to @${senderNumber} for ${reason} (no warning)`);
+             } catch (sendError) {
+               logger.warn({ sendError }, '[MODERATION] Failed to send custom message');
+             }
+           }
+         } catch (e) {
+           logger.error({ e }, `[ERROR] Failed to perform moderation action for @${senderNumber}.`);
+         }
+       }
     } catch (err) {
       // Handle decryption errors gracefully
       if (err.message?.includes('Invalid PreKey') ||

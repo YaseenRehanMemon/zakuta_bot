@@ -513,3 +513,661 @@
 {"level":20,"time":1761398260072,"pid":45563,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: false"}
 {"level":20,"time":1761398260073,"pid":45563,"hostname":"vibeboy","msg":"[MESSAGE] From @63196249493524 in 120363423163991849: \"New code ni diya\""}
 {"level":30,"time":1761398260073,"pid":45563,"hostname":"vibeboy","msg":"[STARTUP] Checking user 63196249493524@s.whatsapp.net in group 120363423163991849@g.us: NOT ADMIN"}
+{"level":30,"time":1761496072809,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] No warnings file found, starting fresh"}
+{"level":20,"time":1761496072811,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761496072811,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Set warning limit to 3 for group 120363123456789012@g.us"}
+{"level":20,"time":1761496072811,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761496072811,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 1/3 for 923001234567@s.whatsapp.net in 120363123456789012@g.us (reason: link)"}
+{"level":20,"time":1761496072811,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761496072812,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 2/3 for 923001234567@s.whatsapp.net in 120363123456789012@g.us (reason: sticker)"}
+{"level":20,"time":1761496072813,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761496072813,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 3/3 for 923001234567@s.whatsapp.net in 120363123456789012@g.us (reason: link)"}
+{"level":20,"time":1761496072815,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761496072815,"pid":185706,"hostname":"vibeboy","msg":"[WARNINGS] Reset warnings for 923001234567@s.whatsapp.net in 120363123456789012@g.us"}
+{"level":30,"time":1761498219759,"pid":192920,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498219758,"pid":192920,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498219760,"pid":192920,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498219760,"pid":192920,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498219802,"pid":192920,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498219854,"pid":192920,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498221539,"pid":192920,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498227557,"pid":192920,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1761498243847,"pid":193236,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498243845,"pid":193236,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498243847,"pid":193236,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498243847,"pid":193236,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498243892,"pid":193236,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498243950,"pid":193236,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":50,"time":1761498244209,"pid":193236,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Connection Timed Out. Will retry with backoff..., Attempt: 1/10"}
+{"level":30,"time":1761498244209,"pid":193236,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 1/10 in 5 seconds..."}
+{"level":30,"time":1761498244209,"pid":193236,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 1 in 5187.030313285911ms"}
+{"level":30,"time":1761498249402,"pid":193236,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 1..."}
+{"level":30,"time":1761498249402,"pid":193236,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498249422,"pid":193236,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498249443,"pid":193236,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498250983,"pid":193236,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498279791,"pid":193310,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498279791,"pid":193310,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498279792,"pid":193310,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498279790,"pid":193310,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498279798,"pid":193310,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498279856,"pid":193310,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498282207,"pid":193327,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498282205,"pid":193327,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498282207,"pid":193327,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498282207,"pid":193327,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498282213,"pid":193327,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498282276,"pid":193327,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498284576,"pid":193349,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498284574,"pid":193349,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498284576,"pid":193349,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498284576,"pid":193349,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498284581,"pid":193349,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498284629,"pid":193349,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498287787,"pid":193367,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498287785,"pid":193367,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498287787,"pid":193367,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498287787,"pid":193367,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498287794,"pid":193367,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498287861,"pid":193367,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498290266,"pid":193384,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498290263,"pid":193384,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498290266,"pid":193384,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498290266,"pid":193384,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498290278,"pid":193384,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498290354,"pid":193384,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498292611,"pid":193410,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498292609,"pid":193410,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498292612,"pid":193410,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498292612,"pid":193410,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498292620,"pid":193410,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498292683,"pid":193410,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498294933,"pid":193466,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498294930,"pid":193466,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498294933,"pid":193466,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498294933,"pid":193466,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498294941,"pid":193466,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498295002,"pid":193466,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498297190,"pid":193482,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498297188,"pid":193482,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498297190,"pid":193482,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498297190,"pid":193482,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498297198,"pid":193482,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498297263,"pid":193482,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498299384,"pid":193496,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498299382,"pid":193496,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498299384,"pid":193496,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498299384,"pid":193496,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498299391,"pid":193496,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498299453,"pid":193496,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498301949,"pid":193512,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498301947,"pid":193512,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498301950,"pid":193512,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498301950,"pid":193512,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498302005,"pid":193512,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498302087,"pid":193512,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498304546,"pid":193512,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498364560,"pid":193512,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498384574,"pid":193512,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498404594,"pid":193512,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498424629,"pid":193512,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498428453,"pid":193768,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498428453,"pid":193768,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498428453,"pid":193768,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498428451,"pid":193768,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498428458,"pid":193768,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498428507,"pid":193768,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498431026,"pid":193791,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498431024,"pid":193791,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498431026,"pid":193791,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498431026,"pid":193791,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498431031,"pid":193791,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498431079,"pid":193791,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498433154,"pid":193807,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498433153,"pid":193807,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498433154,"pid":193807,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498433155,"pid":193807,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498433159,"pid":193807,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498433211,"pid":193807,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498436073,"pid":193829,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498436071,"pid":193829,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498436073,"pid":193829,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498436073,"pid":193829,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498436077,"pid":193829,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498436126,"pid":193829,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498438491,"pid":193846,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498438490,"pid":193846,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498438491,"pid":193846,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498438491,"pid":193846,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498438496,"pid":193846,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498438543,"pid":193846,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498440597,"pid":193860,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498440595,"pid":193860,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498440598,"pid":193860,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498440598,"pid":193860,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498440607,"pid":193860,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498440679,"pid":193860,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498442791,"pid":193886,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498442790,"pid":193886,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498442791,"pid":193886,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498442791,"pid":193886,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498442796,"pid":193886,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498442843,"pid":193886,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498445339,"pid":193902,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498445338,"pid":193902,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498445339,"pid":193902,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498445339,"pid":193902,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498445346,"pid":193902,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498445396,"pid":193902,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498447499,"pid":193916,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498447498,"pid":193916,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498447500,"pid":193916,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498447500,"pid":193916,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498447505,"pid":193916,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498447552,"pid":193916,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498449991,"pid":193934,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498449989,"pid":193934,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498449992,"pid":193934,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498449992,"pid":193934,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498449999,"pid":193934,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498450067,"pid":193934,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498452849,"pid":193976,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498452850,"pid":193976,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498452851,"pid":193976,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498452851,"pid":193976,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498452856,"pid":193976,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498452900,"pid":193976,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498454862,"pid":194006,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498454860,"pid":194006,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498454862,"pid":194006,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498454862,"pid":194006,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498454868,"pid":194006,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498454920,"pid":194006,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498457031,"pid":194020,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498457029,"pid":194020,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498457031,"pid":194020,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498457031,"pid":194020,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498457036,"pid":194020,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498457081,"pid":194020,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498458678,"pid":194036,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498458676,"pid":194036,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498458678,"pid":194036,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498458678,"pid":194036,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498458683,"pid":194036,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498458729,"pid":194036,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498460714,"pid":194050,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498460714,"pid":194050,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498460714,"pid":194050,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498460712,"pid":194050,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498460762,"pid":194050,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498460830,"pid":194050,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498462037,"pid":194050,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498486803,"pid":194179,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498486801,"pid":194179,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498486803,"pid":194179,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498486803,"pid":194179,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498486854,"pid":194179,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498486917,"pid":194179,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498487919,"pid":194179,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498514608,"pid":194179,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1761498520655,"pid":194496,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498520654,"pid":194496,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498520655,"pid":194496,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498520655,"pid":194496,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498520697,"pid":194496,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498520759,"pid":194496,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498521851,"pid":194496,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498533850,"pid":194545,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498533848,"pid":194545,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498533850,"pid":194545,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498533850,"pid":194545,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498533855,"pid":194545,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498533903,"pid":194545,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498536215,"pid":194559,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498536213,"pid":194559,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498536215,"pid":194559,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498536215,"pid":194559,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498536222,"pid":194559,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498536280,"pid":194559,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498537769,"pid":194575,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498537769,"pid":194575,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498537769,"pid":194575,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498537767,"pid":194575,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498537774,"pid":194575,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498537822,"pid":194575,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498539346,"pid":194589,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498539345,"pid":194589,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498539347,"pid":194589,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498539347,"pid":194589,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498539352,"pid":194589,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498539398,"pid":194589,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498540955,"pid":194603,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498540953,"pid":194603,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498540955,"pid":194603,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498540955,"pid":194603,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498540963,"pid":194603,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498541012,"pid":194603,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498542636,"pid":194619,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498542635,"pid":194619,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498542636,"pid":194619,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498542636,"pid":194619,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498542642,"pid":194619,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498542689,"pid":194619,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498545089,"pid":194633,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498545087,"pid":194633,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498545089,"pid":194633,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498545089,"pid":194633,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498545094,"pid":194633,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498545143,"pid":194633,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498546633,"pid":194649,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498546635,"pid":194649,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498546635,"pid":194649,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498546635,"pid":194649,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498546641,"pid":194649,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498546698,"pid":194649,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498548052,"pid":194663,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498548051,"pid":194663,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498548053,"pid":194663,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498548053,"pid":194663,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498548058,"pid":194663,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498548107,"pid":194663,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498549642,"pid":194681,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498549640,"pid":194681,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498549642,"pid":194681,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498549642,"pid":194681,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498549649,"pid":194681,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498549709,"pid":194681,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498551354,"pid":194695,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498551352,"pid":194695,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498551354,"pid":194695,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498551354,"pid":194695,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498551361,"pid":194695,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498551426,"pid":194695,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498552868,"pid":194709,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498552866,"pid":194709,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498552868,"pid":194709,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498552868,"pid":194709,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498552909,"pid":194709,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498552983,"pid":194709,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498553806,"pid":194709,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":30,"time":1761498629430,"pid":195413,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761498629428,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761498629430,"pid":195413,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761498629430,"pid":195413,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498629488,"pid":195413,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498629564,"pid":195413,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498630708,"pid":195413,"hostname":"vibeboy","msg":"[QR CODE] QR code displayed in terminal. Scan to connect."}
+{"level":50,"time":1761498648264,"pid":195413,"hostname":"vibeboy","msg":"[CONNECTION FAILED] Restart Required. Restarting immediately..., Attempt: 1/10"}
+{"level":30,"time":1761498648265,"pid":195413,"hostname":"vibeboy","msg":"[RECONNECT] Attempt 1/10 in 6 seconds..."}
+{"level":30,"time":1761498648265,"pid":195413,"hostname":"vibeboy","msg":"[RECONNECT] Scheduling reconnect attempt 1 in 5886.430350196581ms"}
+{"level":30,"time":1761498654152,"pid":195413,"hostname":"vibeboy","msg":"[RECONNECT] Executing attempt 1..."}
+{"level":30,"time":1761498654152,"pid":195413,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498654156,"pid":195413,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761498654162,"pid":195413,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761498656714,"pid":195413,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761498656715,"pid":195413,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761498656715,"pid":195413,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: undefined"}
+{"level":30,"time":1761498656715,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761498656715,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761498656715,"pid":195413,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761498676595,"pid":195413,"hostname":"vibeboy","msg":"[SETTINGS] Initializing default settings for group: 120363402440404853@g.us"}
+{"level":20,"time":1761498676596,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1761498676855,"pid":195413,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1761498676856,"pid":195413,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!help\""}
+{"level":20,"time":1761498676858,"pid":195413,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!help\" | Admin: true"}
+{"level":30,"time":1761498676855,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1761498676855,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1761498676855,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761498676855,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761498676858,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761498676858,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761498677791,"pid":195413,"hostname":"vibeboy","msg":"[COMMAND] Help command executed."}
+{"level":20,"time":1761498693572,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761498693572,"pid":195413,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!setwarnlimit 3\""}
+{"level":20,"time":1761498693572,"pid":195413,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!setwarnlimit 3\" | Admin: true"}
+{"level":20,"time":1761498693573,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761498693572,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761498693572,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761498693572,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761498693573,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Set warning limit to 3 for group 120363402440404853@g.us"}
+{"level":30,"time":1761498693867,"pid":195413,"hostname":"vibeboy","msg":"[COMMAND] Warning limit set to 3 for 120363402440404853@g.us"}
+{"level":20,"time":1761498708638,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761498708638,"pid":195413,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761498708639,"pid":195413,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":30,"time":1761498708638,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1761498708902,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761498708902,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 1/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761498709165,"pid":195413,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Violation message with warning 1/3 sent to @167074328526983 for sticker"}
+{"level":20,"time":1761498711588,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761498711588,"pid":195413,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761498711588,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761498711589,"pid":195413,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761498711846,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761498711846,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 2/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761498712104,"pid":195413,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Violation message with warning 2/3 sent to @167074328526983 for sticker"}
+{"level":20,"time":1761498715786,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761498715787,"pid":195413,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761498715787,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761498715787,"pid":195413,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761498716044,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761498716044,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 3/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761498716590,"pid":195413,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"167074328526983@lid","phoneNumber":"923013687044@s.whatsapp.net","admin":null}],"action":"remove","msg":"[PARTICIPANT UPDATE]"}
+{"level":20,"time":1761498716590,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CACHE] Invalidated for group 120363402440404853@g.us due to participant update."}
+{"level":30,"time":1761498716842,"pid":195413,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Kicked @167074328526983 after 3 warnings"}
+{"level":30,"time":1761498738706,"pid":195413,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"167074328526983@lid","phoneNumber":"923013687044@s.whatsapp.net","admin":null}],"action":"add","msg":"[PARTICIPANT UPDATE]"}
+{"level":30,"time":1761498739336,"pid":195413,"hostname":"vibeboy","msg":"[WELCOME] Sent welcome message to @167074328526983 in 120363402440404853@g.us (Final)"}
+{"level":20,"time":1761498751843,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":30,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761498752086,"pid":195413,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761498752346,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761498752346,"pid":195413,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 4/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761498752749,"pid":195413,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"167074328526983@lid","phoneNumber":"923013687044@s.whatsapp.net","admin":null}],"action":"remove","msg":"[PARTICIPANT UPDATE]"}
+{"level":20,"time":1761498752749,"pid":195413,"hostname":"vibeboy","msg":"[ADMIN CACHE] Invalidated for group 120363402440404853@g.us due to participant update."}
+{"level":30,"time":1761498753006,"pid":195413,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Kicked @167074328526983 after 3 warnings"}
+{"level":30,"time":1761498835293,"pid":195413,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1761499096794,"pid":196815,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761499096792,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761499096794,"pid":196815,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761499096794,"pid":196815,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761499096802,"pid":196815,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761499096875,"pid":196815,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761499098147,"pid":196815,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761499098147,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761499098147,"pid":196815,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761499098147,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761499098147,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761499098147,"pid":196815,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761499122308,"pid":196815,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"167074328526983@lid","phoneNumber":"923013687044@s.whatsapp.net","admin":null}],"action":"add","msg":"[PARTICIPANT UPDATE]"}
+{"level":30,"time":1761499122308,"pid":196815,"hostname":"vibeboy","msg":"[SETTINGS] Initializing default settings for group: 120363402440404853@g.us"}
+{"level":30,"time":1761499123887,"pid":196815,"hostname":"vibeboy","msg":"[WELCOME] Sent welcome message to @167074328526983 in 120363402440404853@g.us (Final)"}
+{"level":20,"time":1761499142237,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1761499142693,"pid":196815,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1761499142694,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499142698,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499142694,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1761499142694,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1761499142694,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499142694,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499142698,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499142698,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499143229,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499179168,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499179168,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761499179168,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761499179169,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761499179604,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499179605,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 5/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761499180486,"pid":196815,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"167074328526983@lid","phoneNumber":"923013687044@s.whatsapp.net","admin":null}],"action":"remove","msg":"[PARTICIPANT UPDATE]"}
+{"level":20,"time":1761499180486,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CACHE] Invalidated for group 120363402440404853@g.us due to participant update."}
+{"level":30,"time":1761499181007,"pid":196815,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Kicked @167074328526983 after 3 warnings"}
+{"level":20,"time":1761499181007,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499181007,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Reset warnings for 167074328526983@lid in 120363402440404853@g.us"}
+{"level":30,"time":1761499201571,"pid":196815,"hostname":"vibeboy","id":"120363402440404853@g.us","participants":[{"id":"167074328526983@lid","phoneNumber":"923013687044@s.whatsapp.net","admin":null}],"action":"add","msg":"[PARTICIPANT UPDATE]"}
+{"level":30,"time":1761499202411,"pid":196815,"hostname":"vibeboy","msg":"[WELCOME] Sent welcome message to @167074328526983 in 120363402440404853@g.us (Final)"}
+{"level":20,"time":1761499288315,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499288792,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499289223,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499430306,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499430306,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"https://chatpatti.vercel.app\""}
+{"level":30,"time":1761499430306,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761499430308,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for link from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761499432357,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499432357,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 1/3 for 167074328526983@lid in 120363402440404853@g.us (reason: link)"}
+{"level":30,"time":1761499432966,"pid":196815,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Violation message with warning 1/3 sent to @167074328526983 for link"}
+{"level":20,"time":1761499451231,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499451231,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499451231,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499451231,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499451231,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499451231,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499451655,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499457038,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499457038,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!resetwarn\""}
+{"level":20,"time":1761499457038,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!resetwarn\" | Admin: true"}
+{"level":20,"time":1761499457039,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499457038,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499457038,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499457038,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499457039,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Reset all warnings in 120363402440404853@g.us"}
+{"level":30,"time":1761499457825,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Reset all warnings in 120363402440404853@g.us"}
+{"level":20,"time":1761499465830,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499465831,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499465831,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499465831,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499465831,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499465831,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499466184,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499473821,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499473821,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761499473821,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761499473821,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761499474210,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499474210,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 1/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761499474671,"pid":196815,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Violation message with warning 1/3 sent to @167074328526983 for sticker"}
+{"level":20,"time":1761499482637,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499482637,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Njj\""}
+{"level":30,"time":1761499482637,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1761499489218,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499489218,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499489218,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499489218,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499489218,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499489218,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499489590,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499517633,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499517633,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!resetwarn\""}
+{"level":20,"time":1761499517633,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!resetwarn\" | Admin: true"}
+{"level":20,"time":1761499517634,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499517633,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499517633,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499517633,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499517634,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Reset warnings for 167074328526983@lid in 120363402440404853@g.us"}
+{"level":30,"time":1761499517954,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Reset warnings for specific user 167074328526983@lid in 120363402440404853@g.us"}
+{"level":20,"time":1761499526860,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499526860,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499526860,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499526860,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499526860,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499526860,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499527212,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499530851,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499530851,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761499530851,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761499530851,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761499531211,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499531211,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 1/3 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761499531643,"pid":196815,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Violation message with warning 1/3 sent to @167074328526983 for sticker"}
+{"level":20,"time":1761499540269,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499540269,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!setwarnlimit 4\""}
+{"level":20,"time":1761499540269,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!setwarnlimit 4\" | Admin: true"}
+{"level":20,"time":1761499540270,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499540269,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499540269,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499540269,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499540270,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Set warning limit to 4 for group 120363402440404853@g.us"}
+{"level":30,"time":1761499540582,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Warning limit set to 4 for 120363402440404853@g.us"}
+{"level":20,"time":1761499544263,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761499544263,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!showwarn\""}
+{"level":20,"time":1761499544263,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!showwarn\" | Admin: true"}
+{"level":30,"time":1761499544263,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499544263,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499544263,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499544620,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Show warnings executed in 120363402440404853@g.us"}
+{"level":20,"time":1761499547950,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499547950,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761499547950,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761499547950,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for sticker from @167074328526983 in group 120363402440404853@g.us"}
+{"level":20,"time":1761499548280,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Saved warnings data to file"}
+{"level":30,"time":1761499548281,"pid":196815,"hostname":"vibeboy","msg":"[WARNINGS] Added warning 2/4 for 167074328526983@lid in 120363402440404853@g.us (reason: sticker)"}
+{"level":30,"time":1761499548751,"pid":196815,"hostname":"vibeboy","msg":"[WARNING SYSTEM] Violation message with warning 2/4 sent to @167074328526983 for sticker"}
+{"level":20,"time":1761499558493,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499558493,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"@145299079221289\""}
+{"level":30,"time":1761499558493,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1761499572904,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499572904,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"@gsj\""}
+{"level":30,"time":1761499572904,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1761499580822,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499580822,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Non-text message\""}
+{"level":30,"time":1761499580822,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1761499649217,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1761499649548,"pid":196815,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!antitag\""}
+{"level":20,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!antitag\" | Admin: true"}
+{"level":30,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761499649549,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":30,"time":1761499649935,"pid":196815,"hostname":"vibeboy","msg":"[COMMAND] Anti-tag set to true for 120363402440404853@g.us"}
+{"level":20,"time":1761499656995,"pid":196815,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761499656995,"pid":196815,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"@145299079221289\""}
+{"level":30,"time":1761499656995,"pid":196815,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761499656995,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION ACTION] DELETE for mention from @167074328526983 in group 120363402440404853@g.us"}
+{"level":30,"time":1761499657831,"pid":196815,"hostname":"vibeboy","msg":"[MODERATION] Custom message sent to @167074328526983 for mention (no warning)"}
+{"level":30,"time":1761499818155,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761499818155,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761499818155,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358330 minutes"}
+{"level":30,"time":1761499878155,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761499878156,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761499878156,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358331 minutes"}
+{"level":30,"time":1761499938156,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761499938156,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761499938156,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358332 minutes"}
+{"level":30,"time":1761499998157,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761499998157,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761499998157,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358333 minutes"}
+{"level":30,"time":1761500058158,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761500058159,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500058158,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358334 minutes"}
+{"level":30,"time":1761500118159,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761500118159,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500118159,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358335 minutes"}
+{"level":30,"time":1761500178159,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":50,"time":1761500178159,"pid":196815,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500178159,"pid":196815,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358336 minutes"}
+{"level":30,"time":1761500236237,"pid":199810,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761500236236,"pid":199810,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761500236238,"pid":199810,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761500236238,"pid":199810,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500236244,"pid":199810,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500236290,"pid":199810,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761500237641,"pid":199810,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761500237642,"pid":199810,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500237642,"pid":199810,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761500237642,"pid":199810,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761500237642,"pid":199810,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761500237642,"pid":199810,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761500242696,"pid":199870,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761500242694,"pid":199870,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761500242696,"pid":199870,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761500242696,"pid":199870,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500242702,"pid":199870,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500242761,"pid":199870,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761500244234,"pid":199870,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761500244235,"pid":199870,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500244235,"pid":199870,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761500244235,"pid":199870,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761500244235,"pid":199870,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761500244235,"pid":199870,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761500247419,"pid":199908,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761500247417,"pid":199908,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761500247419,"pid":199908,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761500247419,"pid":199908,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500247426,"pid":199908,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500247476,"pid":199908,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761500248954,"pid":199908,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761500248955,"pid":199908,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500248955,"pid":199908,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761500248955,"pid":199908,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761500248955,"pid":199908,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761500248955,"pid":199908,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761500249832,"pid":199964,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761500249830,"pid":199964,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761500249832,"pid":199964,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761500249832,"pid":199964,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500249841,"pid":199964,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500249890,"pid":199964,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761500251507,"pid":199964,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761500251507,"pid":199964,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500251507,"pid":199964,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761500251507,"pid":199964,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761500251507,"pid":199964,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761500251507,"pid":199964,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761500265343,"pid":199964,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}
+{"level":30,"time":1761500288080,"pid":200418,"hostname":"vibeboy","msg":"[SUCCESS] Custom messages loaded from messages.json"}
+{"level":30,"time":1761500288078,"pid":200418,"hostname":"vibeboy","msg":"[WARNINGS] Loaded warnings data from file"}
+{"level":30,"time":1761500288080,"pid":200418,"hostname":"vibeboy","msg":"🚀 Starting WhatsApp Moderation Bot..."}
+{"level":30,"time":1761500288080,"pid":200418,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500288086,"pid":200418,"hostname":"vibeboy","msg":"--- Initializing Zakuta Bot ---"}
+{"level":30,"time":1761500288135,"pid":200418,"hostname":"vibeboy","msg":"⏳ Connecting to WhatsApp..."}
+{"level":30,"time":1761500289810,"pid":200418,"hostname":"vibeboy","msg":"✅ Bot connected successfully! Monitoring all groups..."}
+{"level":50,"time":1761500289811,"pid":200418,"hostname":"vibeboy","error":{},"msg":"[SESSION] Failed to cleanup old sessions"}
+{"level":30,"time":1761500289811,"pid":200418,"hostname":"vibeboy","msg":"[DEBUG] Bot ID: 923342722864:18@s.whatsapp.net, Bot Name: Yaseen Memon"}
+{"level":30,"time":1761500289811,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Bot JID: 923342722864:18@s.whatsapp.net"}
+{"level":30,"time":1761500289812,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Bot LID: 256848305348808:18@lid"}
+{"level":30,"time":1761500289812,"pid":200418,"hostname":"vibeboy","msg":"Bot connected successfully!"}
+{"level":30,"time":1761500295873,"pid":200418,"hostname":"vibeboy","msg":"[SETTINGS] Initializing default settings for group: 120363402440404853@g.us"}
+{"level":20,"time":1761500295874,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] Caching admins for group 120363402440404853@g.us"}
+{"level":20,"time":1761500296184,"pid":200418,"hostname":"vibeboy","msg":"[METADATA] Raw admin participants for 120363402440404853@g.us: 256848305348808@s.whatsapp.net(null), 145299079221289@s.whatsapp.net(null)"}
+{"level":20,"time":1761500296185,"pid":200418,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"!mute 1\""}
+{"level":20,"time":1761500296188,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Received from 167074328526983@lid in 120363402440404853@g.us: \"!mute 1\" | Admin: false"}
+{"level":30,"time":1761500296185,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CACHE] Admins for 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":30,"time":1761500296185,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Group 120363402440404853@g.us admin JIDs: 256848305348808@s.whatsapp.net, 145299079221289@s.whatsapp.net"}
+{"level":20,"time":1761500296185,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":30,"time":1761500296185,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":20,"time":1761500296188,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":30,"time":1761500296188,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761500296188,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Ignored command from non-admin 167074328526983@lid"}
+{"level":20,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!mute 1\""}
+{"level":20,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!mute 1\" | Admin: true"}
+{"level":30,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500302766,"pid":200418,"hostname":"vibeboy","msg":"[BOT ADMIN CHECK] Checking JIDs for !mute in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1761500303420,"pid":200418,"hostname":"vibeboy","msg":"[MUTE] Group 120363402440404853@g.us muted for 1 minutes"}
+{"level":30,"time":1761500364167,"pid":200418,"hostname":"vibeboy","msg":"[MUTE] Group 120363402440404853@g.us unmuted automatically"}
+{"level":30,"time":1761500409811,"pid":200418,"hostname":"vibeboy","msg":"[HEALTH] Connection status: Active, Reconnect attempts: 0"}
+{"level":30,"time":1761500409812,"pid":200418,"hostname":"vibeboy","msg":"[HEALTH] Connection health check - Active for 29358340 minutes"}
+{"level":20,"time":1761500431658,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761500431658,"pid":200418,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!close\""}
+{"level":20,"time":1761500431658,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!close\" | Admin: true"}
+{"level":30,"time":1761500431658,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500431658,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761500431658,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500431659,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761500431659,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500431659,"pid":200418,"hostname":"vibeboy","msg":"[BOT ADMIN CHECK] Checking JIDs for !close in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1761500431659,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Bot JIDs for !close in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1761500432375,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Group 120363402440404853@g.us set to CLOSED."}
+{"level":20,"time":1761500440872,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":20,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[MESSAGE] From @145299079221289 in 120363402440404853: \"!open\""}
+{"level":20,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Received from 145299079221289@lid in 120363402440404853@g.us: \"!open\" | Admin: true"}
+{"level":30,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 145299079221289@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: true"}
+{"level":30,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 256848305348808@s.whatsapp.net in group 120363402440404853@g.us: ADMIN"}
+{"level":20,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[BOT ADMIN CHECK] Checking JIDs for !open in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1761500440873,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Bot JIDs for !open in 120363402440404853@g.us: 256848305348808@s.whatsapp.net, 923342722864@s.whatsapp.net, 923342722864@s.whatsapp.net"}
+{"level":30,"time":1761500441587,"pid":200418,"hostname":"vibeboy","msg":"[COMMAND] Group 120363402440404853@g.us set to OPEN."}
+{"level":20,"time":1761500444250,"pid":200418,"hostname":"vibeboy","msg":"[ADMIN CHECK] User 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: false"}
+{"level":20,"time":1761500444250,"pid":200418,"hostname":"vibeboy","msg":"[MESSAGE] From @167074328526983 in 120363402440404853: \"Th\""}
+{"level":30,"time":1761500444250,"pid":200418,"hostname":"vibeboy","msg":"[STARTUP] Checking user 167074328526983@s.whatsapp.net in group 120363402440404853@g.us: NOT ADMIN"}
+{"level":30,"time":1761500448498,"pid":200418,"hostname":"vibeboy","msg":"[SHUTDOWN] Shutting down bot..."}

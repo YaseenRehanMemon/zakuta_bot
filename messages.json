@@ -1,7 +1,7 @@
 {
   "alive_message": "YOUR WIFI 📶 IS WEAK, BUT 𝗭𝗔𝗞𝗨𝗧𝗔 signal IS STRONG ⚡ALWAYS READY FOR HUNTS 😉 𝗭𝗔𝗞𝗨𝗧𝗔 NEVER SLEEP 𓆩☠︎︎𓆪",
   "welcome_message": "╭═「𝗪𝗘𝗟𝗖𝗢𝗠𝗘」 ═╮\n│ 🙋🏻‍♂ @{user}\n│ 🏡 {groupname}\n├───❖─💫─❖───\n│ ★ A legend in the making 🏅\n│ ✨ Together, we rise above\n│ ©: 𝗦𝗼𝗵𝗮𝗶𝗟\n╰═「 Style fade, Make 𝑽𝑰𝑷!!」═╯",
-  "violation_message": "╭─⛔ *{reason_capitalized} 𝗗𝗘𝗧𝗘𝗖𝗧𝗘𝗗* ⛔\n├◉ User : @{user}\n├◉ 𝘼𝙡𝙚𝙧𝙩 : *No {reason_capitalized}s here, Buddy⚠️*\n├◉ 𝗭𝗔𝗞𝗨𝗧𝗔 deleted it like a 𝗣𝗿𝗼.\n╰─➤⍟  😈",
+   "violation_message": "╭─⛔ *{reason_capitalized} 𝗗𝗘𝗧𝗘𝗖𝗧𝗘𝗗* ⛔\n├◉ User : @{user}\n├◉ 𝘼𝙡𝙚𝙧𝙩 : *No {reason_capitalized}s here, Buddy⚠️*\n├◉ Warn : {count}/{limit}\n├◉ 𝗭𝗔𝗞𝗨𝗧𝗔 deleted it like a 𝗣𝗿𝗼.\n╰─➤⍟  😈",
   "status_kick_message": "🚨 UH-OH @{user}💖 KICKED! 🚨\n𝙎𝙏𝘼𝙏𝙐𝙎 POSTS NOT ALLOWED 🚫 LEAVE YOUR STORY OUTSIDE 😈\n⍟ ©𝗦𝗼𝗵𝗮𝗶𝗹 𓆩☠︎︎𓆪",
   "promotion_message": "*𝗭𝗔𝗞𝗨𝗧𝗔 SAID OH NO @{user} 👿 PROMOTIONS ARE NOT WELCOME HERE 👎 TRY ANOTHER GROUP★*\n© 𝐒𝐎𝐇𝐀𝐈𝐋",
   "no_user_mentioned_kick": "⚠️ Please mention the user you want to kick.",
@@ -20,7 +20,9 @@
   "auto_timer_no_active": "ℹ️ No active auto-timers to cancel.",
   "tagall_empty_group": "⚠️ Cannot tag all: Group has no participants or failed to fetch participants.",
   "tagall_message_prefix": "╭─「📢 ATTENTION ALL」─╮\n│\n│ {message}\n│\n│ ©: 𝗦𝗼𝗵𝗮𝗶𝗟\n╰────────────────────╯",
-  "tagall_no_message": "⚠️ Please provide a message for !tagall. Example: !tagall Important announcement!",
-  "not_admin_command_message": "*User*: @{user}\n*Message*: *ᴘʜʟʏ ᴀᴅᴍɪɴ ʙᴀɴᴏ ᴘʜɪʀ ʜᴜᴋᴀᴍ ᴅᴇɴᴀ😉❕*\n",
-  "group_link_fail": "❌ Failed to get group link. Make sure I am an admin."
+   "tagall_no_message": "⚠️ Please provide a message for !tagall. Example: !tagall Important announcement!",
+   "not_admin_command_message": "*User*: @{user}\n*Message*: *ᴘʜʟʏ ᴀᴅᴍɪɴ ʙᴀɴᴏ ᴘʜɪʀ ʜᴜᴋᴀᴍ ᴅᴇɴᴀ😉❕*\n",
+   "group_link_fail": "❌ Failed to get group link. Make sure I am an admin.",
+   "warning_message": "⚠️ **Warning {count}/{limit}** - @{user}, {reason}s are not allowed in this group!",
+   "kick_message_warning_limit": "🚨 **Warning Limit Reached ({limit})** - @{user} has been kicked for repeated violations."
 }

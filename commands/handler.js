@@ -4,8 +4,9 @@ import pino from 'pino';
 import { toUnicodeBold, normalizeId, getMessageContent } from '../utils/helpers.js';
 import { getGroupSettings, setGroupSettings } from '../core/settings.js';
 import { isAdmin, clearAdminCache } from '../core/admins.js';
-import { autoTimers } from '../scheduler/autoTimer.js';
+import { autoTimers, muteTimers } from '../scheduler/autoTimer.js';
 import { containsLinks, hasMentions, checkPromotionContent } from '../moderation/rules.js';
+import { getWarnedUsers, resetAllWarnings, resetUserWarnings, getWarningLimit, setWarningLimit, getUserWarnings } from '../utils/warnings.js';
 
 const logger = pino({ level: 'debug' }, pino.destination('bot.log'));
 
@@ -113,16 +114,23 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
 - *!antipromotion on/off*
 - *!antistatus on/off*
 - *!welcome on/off*
-*GROUP MANAGEMENT:*
-- *!link* (get group invite link)
-- *!kick @user* or reply to user
-- *!open*
-- *!close*
-- *!tagall [message]* or reply to message
+ *GROUP MANAGEMENT:*
+ - *!link* (get group invite link)
+ - *!kick @user* or reply to user
+ - *!open*
+ - *!close*
+ - *!mute [minutes]* (temporarily close group)
+ - *!tagall [message]* or reply to message
 *AUTOMATION:*
 - *!autoopen HH:MM(AM/PM)*
 - *!autoclose HH:MM(AM/PM)*
 - *!autotimer off*
+*WARNING SYSTEM:*
+- *!showwarn* (show all warnings)
+- *!showwarn* (reply to user for specific)
+- *!resetwarn* (reset all warnings)
+- *!resetwarn* (reply to user for specific)
+- *!setwarnlimit 3* (set warning limit)
 *UTILITY:*
 - *!ping*
 - *!alive* or *!zakuta*
@@ -508,10 +516,191 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                 } else {
                     await sock.sendMessage(groupId, { text: toUnicodeBold(customMessages.auto_timer_no_active) });
                 }
+              }
+              break;
+        case '!mute':
+            const minutes = parseInt(args[0]);
+            if (!minutes || minutes < 1 || minutes > 60) {
+                await sock.sendMessage(groupId, { text: "⚠️ Please provide a valid number of minutes (1-60). Example: !mute 10" });
+                logger.warn(`[COMMAND] Mute failed: Invalid minutes \"${args[0]}\" in ${groupId}`);
+                return;
+            }
+
+            // Cancel existing mute if active
+            if (muteTimers[groupId]) {
+                clearTimeout(muteTimers[groupId]);
+                logger.info(`[MUTE] Canceled existing mute for group ${groupId}`);
+            }
+
+            try {
+                // Check if bot is an admin before changing group settings
+                let botIsAdmin = false;
+                let retries = 3;
+
+                while (retries > 0) {
+                    try {
+                        if (retries < 3) clearAdminCache(groupId);
+                        const botJidOptions = [
+                            sock.user?.lid,
+                            sock.user?.id,
+                            sock.authState?.creds?.me?.id,
+                            sock.user?.jid
+                        ].filter(Boolean).map(normalizeId);
+
+                        logger.debug(`[BOT ADMIN CHECK] Checking JIDs for !mute in ${groupId}: ${botJidOptions.join(', ')}`);
+
+                        for (const botJid of botJidOptions) {
+                            botIsAdmin = await isAdmin(sock, groupId, botJid);
+                            if (botIsAdmin) break;
+                        }
+                        if (botIsAdmin) break;
+                        retries--;
+                        if (retries > 0) {
+                            logger.warn(`[MUTE] Bot not admin, retrying... (${retries} left)`);
+                            await new Promise(resolve => setTimeout(resolve, 1000));
+                        }
+                    } catch (e) {
+                        retries--;
+                        if (retries > 0) {
+                            logger.warn(`[MUTE] Admin check failed, retrying... (${retries} left)`);
+                            await new Promise(resolve => setTimeout(resolve, 1000));
+                        }
+                    }
+                }
+
+                if (!botIsAdmin) {
+                    await sock.sendMessage(groupId, { text: customMessages.group_close_fail });
+                    logger.warn(`[MUTE] Bot is not admin in ${groupId}, cannot mute group`);
+                    return;
+                }
+
+                await sock.groupSettingUpdate(groupId, 'announcement');
+                await sock.sendMessage(groupId, { text: `🔇 Group muted for ${minutes} minute${minutes === 1 ? '' : 's'}.` });
+                logger.info(`[MUTE] Group ${groupId} muted for ${minutes} minutes`);
+
+                // Schedule reopen
+                const timeoutId = setTimeout(async () => {
+                    try {
+                        await sock.groupSettingUpdate(groupId, 'not_announcement');
+                        await sock.sendMessage(groupId, { text: "🔊 Group unmuted automatically." });
+                        delete muteTimers[groupId];
+                        logger.info(`[MUTE] Group ${groupId} unmuted automatically`);
+                    } catch (e) {
+                        logger.error({ e }, `[MUTE] Failed to unmute group ${groupId}`);
+                        await sock.sendMessage(groupId, { text: "❌ Failed to unmute group automatically." });
+                    }
+                }, minutes * 60000);
+
+                muteTimers[groupId] = timeoutId;
+            } catch (e) {
+                logger.error({ e }, '[MUTE] Failed to mute group');
+                await sock.sendMessage(groupId, { text: "❌ Failed to mute group." });
             }
             break;
-    }
-}
+          case '!showwarn':
+         case '!showwarnings':
+             try {
+                 // Check if command is used as a reply
+                 const contextInfo = msg.message?.extendedTextMessage?.contextInfo;
+                 const isReply = !!contextInfo?.stanzaId;
+
+                 if (isReply && contextInfo.participant) {
+                     // Show warnings for specific user
+                     const targetUserId = contextInfo.participant;
+                     const userWarnings = getUserWarnings(groupId, targetUserId);
+                     const targetUserNumber = targetUserId.split('@')[0];
+
+                     if (userWarnings.count > 0) {
+                         const message = `⚠️ *Warning Status for @${targetUserNumber}*\n\n` +
+                             `📊 Current Warnings: ${userWarnings.count}/${getWarningLimit(groupId)}\n` +
+                             `🕒 Last Warning: ${new Date(userWarnings.lastWarning).toLocaleString()}\n` +
+                             `🚨 Recent Violations: ${userWarnings.violations.slice(-5).join(', ')}`;
+                         await sock.sendMessage(groupId, {
+                             text: message,
+                             mentions: [targetUserId]
+                         });
+                     } else {
+                         await sock.sendMessage(groupId, {
+                             text: `✅ @${targetUserNumber} has no warnings.`,
+                             mentions: [targetUserId]
+                         });
+                     }
+                 } else {
+                     // Show all warned users
+                     const warnedUsers = getWarnedUsers(groupId);
+                     if (warnedUsers.length === 0) {
+                         await sock.sendMessage(groupId, { text: "✅ No users have warnings in this group." });
+                     } else {
+                         let message = `⚠️ *Warning Summary* ⚠️\n\n`;
+                         warnedUsers.forEach((user, index) => {
+                             const userNumber = user.userId.split('@')[0];
+                             message += `${index + 1}. @${userNumber} - ${user.count}/${getWarningLimit(groupId)} warnings\n`;
+                         });
+                         message += `\n📊 Total warned users: ${warnedUsers.length}`;
+                         await sock.sendMessage(groupId, {
+                             text: message,
+                             mentions: warnedUsers.map(u => u.userId)
+                         });
+                     }
+                 }
+                 logger.info(`[COMMAND] Show warnings executed in ${groupId}`);
+             } catch (e) {
+                 logger.error({ e }, '[ERROR] Show warnings command failed');
+                 await sock.sendMessage(groupId, { text: "❌ Failed to show warnings." });
+             }
+             break;
+         case '!resetwarn':
+         case '!resetwarnings':
+             try {
+                 // Check if command is used as a reply
+                 const contextInfo = msg.message?.extendedTextMessage?.contextInfo;
+                 const isReply = !!contextInfo?.stanzaId;
+
+                 if (isReply && contextInfo.participant) {
+                     // Reset warnings for specific user
+                     const targetUserId = contextInfo.participant;
+                     const success = resetUserWarnings(groupId, targetUserId);
+                     const targetUserNumber = targetUserId.split('@')[0];
+
+                     if (success) {
+                         await sock.sendMessage(groupId, {
+                             text: `✅ Warnings reset for @${targetUserNumber}.`,
+                             mentions: [targetUserId]
+                         });
+                         logger.info(`[COMMAND] Reset warnings for specific user ${targetUserId} in ${groupId}`);
+                     } else {
+                         await sock.sendMessage(groupId, {
+                             text: `ℹ️ @${targetUserNumber} had no warnings to reset.`,
+                             mentions: [targetUserId]
+                         });
+                     }
+                 } else {
+                     // Reset all warnings
+                     const success = resetAllWarnings(groupId);
+                     if (success) {
+                         await sock.sendMessage(groupId, { text: "✅ All warnings have been reset for this group." });
+                         logger.info(`[COMMAND] Reset all warnings in ${groupId}`);
+                     } else {
+                         await sock.sendMessage(groupId, { text: "ℹ️ No warnings to reset in this group." });
+                     }
+                 }
+             } catch (e) {
+                 logger.error({ e }, '[ERROR] Reset warnings command failed');
+                 await sock.sendMessage(groupId, { text: "❌ Failed to reset warnings." });
+             }
+             break;
+         case '!setwarnlimit':
+             const newLimit = parseInt(args[0]);
+             if (!newLimit || newLimit < 1 || newLimit > 10) {
+                 await sock.sendMessage(groupId, { text: "⚠️ Please provide a valid limit between 1-10. Example: !setwarnlimit 3" });
+                 return;
+             }
+             setWarningLimit(groupId, newLimit);
+             await sock.sendMessage(groupId, { text: `✅ Warning limit set to ${newLimit} for this group.` });
+             logger.info(`[COMMAND] Warning limit set to ${newLimit} for ${groupId}`);
+             break;
+     }
+ }
 
 export {
     handleCommand,
