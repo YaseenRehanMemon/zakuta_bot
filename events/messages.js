@@ -184,12 +184,12 @@ async function handleMessagesUpsert(sock, messagesData, customMessages) {
                   logger.error({ kickError }, `[WARNING SYSTEM] Failed to kick @${senderNumber}`);
                 }
              } else {
-               // Send violation message with warning count
-               const violationMessage = customMessages.violation_message
-                 .replace(/{user}/g, senderNumber)
-                 .replace(/{reason_capitalized}/g, reason.charAt(0).toUpperCase() + reason.slice(1))
-                 .replace(/{count}/g, warningCount)
-                 .replace(/{limit}/g, warningLimit);
+                // Send violation message with warning count
+                const violationMessage = customMessages.violation_message
+                  .replace(/{user}/g, senderNumber)
+                  .replace(/{reason_capitalized}/g, toUnicodeBold(reason.toUpperCase()))
+                  .replace(/{count}/g, warningCount)
+                  .replace(/{limit}/g, warningLimit);
 
                try {
                  await sock.sendMessage(groupId, {

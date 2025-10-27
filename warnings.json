@@ -6,12 +6,12 @@
   "120363402440404853@g.us": {
     "limit": 4,
     "users": {
-      "167074328526983@lid": {
+      "63196249493524@lid": {
         "count": 2,
-        "lastWarning": 1761499548280,
+        "lastWarning": 1761574096629,
         "violations": [
           "sticker",
-          "sticker"
+          "link"
         ]
       }
     }
