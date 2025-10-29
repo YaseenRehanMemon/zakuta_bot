@@ -575,14 +575,14 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                 }
 
                 await sock.groupSettingUpdate(groupId, 'announcement');
-                await sock.sendMessage(groupId, { text: `🔇 Group muted for ${minutes} minute${minutes === 1 ? '' : 's'}.` });
+                await sock.sendMessage(groupId, { text: `*🔇 Group muted for ${minutes} minute${minutes === 1 ? '' : 's'}.*` });
                 logger.info(`[MUTE] Group ${groupId} muted for ${minutes} minutes`);
 
                 // Schedule reopen
                 const timeoutId = setTimeout(async () => {
                     try {
                         await sock.groupSettingUpdate(groupId, 'not_announcement');
-                        await sock.sendMessage(groupId, { text: "🔊 Group unmuted automatically." });
+                        await sock.sendMessage(groupId, { text: "*🔊 Group unmuted automatically.*" });
                         delete muteTimers[groupId];
                         logger.info(`[MUTE] Group ${groupId} unmuted automatically`);
                     } catch (e) {
@@ -610,27 +610,27 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                      const userWarnings = getUserWarnings(groupId, targetUserId);
                      const targetUserNumber = targetUserId.split('@')[0];
 
-                     if (userWarnings.count > 0) {
-                         const message = `⚠️ *Warning Status for @${targetUserNumber}*\n\n` +
-                             `📊 Current Warnings: ${userWarnings.count}/${getWarningLimit(groupId)}\n` +
-                             `🕒 Last Warning: ${new Date(userWarnings.lastWarning).toLocaleString()}\n` +
-                             `🚨 Recent Violations: ${userWarnings.violations.slice(-5).join(', ')}`;
-                         await sock.sendMessage(groupId, {
-                             text: message,
-                             mentions: [targetUserId]
-                         });
-                     } else {
-                         await sock.sendMessage(groupId, {
-                             text: `✅ @${targetUserNumber} has no warnings.`,
-                             mentions: [targetUserId]
-                         });
-                     }
+                      if (userWarnings.count > 0) {
+                          const message = `⚠️ *Warning Status for @${targetUserNumber}*\n\n` +
+                              `📊 Current Warnings: ${userWarnings.count}/${getWarningLimit(groupId)}\n` +
+                              `🕒 Last Warning: ${new Date(userWarnings.lastWarning).toLocaleString()}\n` +
+                              `🚨 Recent Violations: ${userWarnings.violations.slice(-5).join(', ')}`;
+                          await sock.sendMessage(groupId, {
+                              text: message,
+                              mentions: [targetUserId]
+                          });
+                      } else {
+                          await sock.sendMessage(groupId, {
+                              text: `*✅ @${targetUserNumber} has no warnings.*`,
+                              mentions: [targetUserId]
+                          });
+                      }
                  } else {
-                     // Show all warned users
-                     const warnedUsers = getWarnedUsers(groupId);
-                     if (warnedUsers.length === 0) {
-                         await sock.sendMessage(groupId, { text: "✅ No users have warnings in this group." });
-                     } else {
+                      // Show all warned users
+                      const warnedUsers = getWarnedUsers(groupId);
+                      if (warnedUsers.length === 0) {
+                          await sock.sendMessage(groupId, { text: "*✅ No users have warnings in this group.*" });
+                      } else {
                          let message = `⚠️ *Warning Summary* ⚠️\n\n`;
                          warnedUsers.forEach((user, index) => {
                              const userNumber = user.userId.split('@')[0];
@@ -669,19 +669,19 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                          });
                          logger.info(`[COMMAND] Reset warnings for specific user ${targetUserId} in ${groupId}`);
                      } else {
-                         await sock.sendMessage(groupId, {
-                             text: `ℹ️ @${targetUserNumber} had no warnings to reset.`,
-                             mentions: [targetUserId]
-                         });
+                          await sock.sendMessage(groupId, {
+                              text: `*ℹ️ @${targetUserNumber} had no warnings to reset.*`,
+                              mentions: [targetUserId]
+                          });
                      }
                  } else {
                      // Reset all warnings
                      const success = resetAllWarnings(groupId);
                      if (success) {
-                         await sock.sendMessage(groupId, { text: "✅ All warnings have been reset for this group." });
+                          await sock.sendMessage(groupId, { text: "*✅ All warnings have been reset for this group.*" });
                          logger.info(`[COMMAND] Reset all warnings in ${groupId}`);
                      } else {
-                         await sock.sendMessage(groupId, { text: "ℹ️ No warnings to reset in this group." });
+                          await sock.sendMessage(groupId, { text: "*ℹ️ No warnings to reset in this group.*" });
                      }
                  }
              } catch (e) {
@@ -696,7 +696,7 @@ async function handleCommand(sock, groupId, senderId, messageText, msg, customMe
                  return;
              }
              setWarningLimit(groupId, newLimit);
-             await sock.sendMessage(groupId, { text: `✅ Warning limit set to ${newLimit} for this group.` });
+              await sock.sendMessage(groupId, { text: `*✅ Warning limit set to ${newLimit} for this group.*` });
              logger.info(`[COMMAND] Warning limit set to ${newLimit} for ${groupId}`);
              break;
      }
