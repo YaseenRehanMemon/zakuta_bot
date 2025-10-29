@@ -5,6 +5,12 @@
     "warnings.json",
     "messages.json",
     "session*",
-    "auth*"
+    "auth*",
+    "auth_info/**",
+    "node_modules/**",
+    "portal_debug.log",
+    "portal_test.log",
+    "portal.log",
+    "package-lock.json"
   ]
 }
