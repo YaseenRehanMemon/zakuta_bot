@@ -9,6 +9,7 @@ import basicAuth from 'basic-auth';
 import multer from 'multer';
 import chokidar from 'chokidar';
 
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -225,7 +226,7 @@ io.on('connection', (socket) => {
 
 // File watcher for real-time updates
 const watcher = chokidar.watch('.', {
-  ignored: /(^|[\/\\])\../, // ignore dotfiles
+  ignored: [/(^|[\/\\])\../, 'node_modules/**', 'auth_info/**', '*.log', 'package-lock.json', '.gitignore', 'nodemon.json', 'warnings.json'],
   persistent: true
 });
 
