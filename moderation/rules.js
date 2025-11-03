@@ -41,13 +41,13 @@ function checkPromotionContent(messageText, msg) {
         hasUrlButtons = innerMessage.buttons.some(button => button.urlButton);
     }
 
-    // Check for links in quoted message
-    if (innerMessage?.contextInfo?.quotedMessage) {
-        const quotedText = getMessageContent(innerMessage.contextInfo.quotedMessage);
-        if (quotedText && containsLinks(quotedText)) {
-            hasQuotedLinks = true;
-        }
-    }
+    // Check for links in quoted message (disabled)
+    // if (innerMessage?.contextInfo?.quotedMessage) {
+    //     const quotedText = getMessageContent(innerMessage.contextInfo.quotedMessage);
+    //     if (quotedText && containsLinks(quotedText)) {
+    //         hasQuotedLinks = true;
+    //     }
+    // }
     
     // check for a message forwarded or not 
     let isPromotionalForward = false;
